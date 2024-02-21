@@ -1,6 +1,51 @@
-.h1 {
-    background-color: aquamarine;
+* {
     font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
 }
+
+h1 {
+    background-color: aquamarine;
+    text-align: center;
+    color: black;
+    padding: 50px;
+    margin-bottom: 10px;
+}
+
+.navbar {
+    background-color: chocolate;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: cyan;
+}
+
+div {
+    background-color: chocolate;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+div.description {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    margin: 5px;
+}
+
+.center {
+    display:block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+
+
